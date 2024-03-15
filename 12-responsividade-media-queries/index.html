@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade e media queries</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="logo">Logo</h1>
+        <nav>
+            <ul>
+                <li><a href="#quem-somos">Quem somos</a></li>
+                <li><a href="#onde-estamos">Onde Estamos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="painel">
+            <div class="info">
+                <h1>Batman</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore reprehenderit velit ea maxime minus
+                    iure excepturi eius, voluptate omnis alias molestiae temporibus repellendus a repellat, iste
+                    accusantium eum explicabo odit!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique ipsam possimus architecto
+                    commodi, corporis dignissimos aliquam. Id, impedit deserunt perferendis aliquam, cumque amet vero
+                    obcaecati facere distinctio consequatur, doloremque dicta?</p>
+            </div>
+            <div class="image">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="image/batman-pequena.jpg" type="image/jpg" />
+                    <img src="image/batman.jpg" alt="Cartaz do Batman">
+                </picture>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
